@@ -24,36 +24,23 @@ function install_app() {
 ## Internet and communication
 install_app google-chrome "Google Chrome"
 success Sign-in chrome and create profiles for work and personal
-install_app firefox-developer-edition "Firefox Developer Edition"
 install_app slack
-install_app zoomus "Zoom.us Meeting"
 
 ## Productivity
-install_app dropbox "Dropbox"
-install_app google-backup-and-sync "Google Backup and Sync"
-install_app google-drive-file-stream "Google Drive File Stream"
+#install_app todoist "Todoist"
+#install_app google-backup-and-sync "Google Backup and Sync"
+#install_app google-drive-file-stream "Google Drive File Stream"
+#
+#install_app evernote "Evernote"
+#install_app notion "Notion (notion.so)"
 
-install_app evernote "Evernote"
-install_app notion "Notion (notion.so)"
-
-install_app alfred "Alfred (launcher)"
-# older version: alfred3
-install_app 1password "1Password"
 # older version : 1password6
 install_app 1password-cli "1Password CLI"
-
-install_app typora "Typora Markdown editor"
-install_app drawio "Draw.io / Diagrams.net"
-install_app freeplane "Freeplane (Mindmapping)"
-install_app libreoffice "Libre Office"
 
 ## Development Tools
 install_app iterm2 "iTerm2 v3+"
 install_app sublime-text "Sublime Text 3+"
-install_app visual-studio-code "VS Code"
-install_app intellij-idea "IntelliJ IDEA Ultimate"
 install_app intellij-idea-ce "IntelliJ IDEA Community"
-install_app anaconda
 install_app docker
 
 ## Install Postgres.app

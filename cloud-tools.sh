@@ -2,7 +2,7 @@
 
 ## Heroku
 ## brew tap heroku/brew && brew install heroku
-brew install heroku/brew/heroku
+#brew install heroku/brew/heroku
 ## npm install -g heroku-cli
 
 ## Serverless
@@ -15,12 +15,12 @@ brew install awsebcli
 brew install awslogs
 brew install aws/tap/aws-sam-cli
 
-## Google Cloud
-brew install --cask google-cloud-sdk
-npm install -g firebase-tools
-
-## Netlify
-npm install -g netlify-cli
+### Google Cloud
+#brew install --cask google-cloud-sdk
+#npm install -g firebase-tools
+#
+### Netlify
+#npm install -g netlify-cli
 
 # Netlifyctl is older version
 # brew tap netlify/netlifyctl
