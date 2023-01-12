@@ -50,8 +50,5 @@ fi
 mkdir ~/.nvm
 brew install nvm
 
-NVM_DIR="$HOME/.nvm"
-    [ -s "$(brew --prefix)/opt/nvm/nvm.sh" ] && \. "$(brew --prefix)/opt/nvm/nvm.sh" # This loads nvm
-    [ -s "$(brew --prefix)/opt/nvm/etc/bash_completion.d/nvm" ] && \. "$(brew --prefix)/opt/nvm/etc/bash_completion.d/nvm" # This loads nvm bash_completion
-
-NVM_DIR >> ~/.zshrc
+echo export NVM_DIR=~/.nvm >> ~/.zshrc
+echo source $(brew --prefix nvm)/nvm.sh >> ~/.zshrc

@@ -6,3 +6,6 @@ cloud-tools:
 
 dev-tools:
 	@sh dev-tools.sh
+
+app-tools:
+	@sh apps.sh
